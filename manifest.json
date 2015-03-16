@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Fb-Detoxify",
+  "description": "Removes Facebook feed content",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["fb-detoxify.js"]
+    }
+  ]
+}
